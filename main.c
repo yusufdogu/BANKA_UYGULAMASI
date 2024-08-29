@@ -133,7 +133,6 @@ void ode(int *sayi) {
                 scanf("%d", &kod);
                 if (kod == 5678 && *sayi >= ucret) {
                     printf("FATURA UCRETINIZ %d TL ", ucret);
-                    *sayi -= ucret;
                     printf("ONAYLAMAK ICIN 1 E BASINIZ ");
                     scanf("%d", &secim);
                     if (secim == 1) {
@@ -151,7 +150,6 @@ void ode(int *sayi) {
                 scanf("%d", &kod);
                 if (kod == 1357 && *sayi >= ucret) {
                     printf("FATURA UCRETINIZ %d TL ", ucret);
-                    *sayi -= ucret;
                     printf("ONAYLAMAK ICIN 1 E BASINIZ ");
                     scanf("%d", &secim);
                     if (secim == 1) {
